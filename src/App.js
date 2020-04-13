@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      movies: ''
+      movies: []
     }
 
     this.handleChange = this.handleChange.bind(this)

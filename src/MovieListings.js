@@ -4,7 +4,7 @@ import MovieListing from "./MovieListing"
 function MovieListings(props){
     
     let { movies } = props
-    if (movies !== ''){
+    if (movies.length > 0){
         let output = movies.map((movie, idx) => {
             if(movie === undefined){
                 return ''
